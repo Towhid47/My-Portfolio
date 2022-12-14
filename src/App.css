@@ -1,17 +1,41 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
-.greetings{
-   font-family: 'Courgette', cursive;
-   margin-left: 5%;
-   margin-top: 5%;
-}
-
 .App {
   color: white;
 }
 
-.navigationbar{
-   border:2px solid red;
-}
 
+/*////////// Navbar Style Start ////////////////////////*/
+.navigationbar{
+   margin-top: 1%;
+   text-align: center;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+.nav-item{
+   color:white;
+   font-size: 2.5em;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   transform-origin: bottom;
+}
+.bounce:hover {
+   animation-name: bounce;
+   animation-timing-function: ease;
+}
+@keyframes bounce {
+   0%   { transform: translateY(0); }
+   50%  { transform: translateY(-13px); }
+   100% { transform: translateY(0); }
+ }
+ /*////////////////  Navbar Style End /////////////////////*/
+
+
+
+ .greetings{
+   font-family: 'Courgette', cursive;
+   margin-left: 5%;
+   margin-top: 5%;
+}
