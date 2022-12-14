@@ -1,10 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h2 className='greetings'>Hello ! Welcome to my Portfolio</h2>
+        {/* ////////////////////// Navbar Section Start///////////////////////// */}
+        <div className='navigationbar'>
+           <div>
+               
+           </div>
+        </div>
+    
+
+
+
+
+
+        {/* ////////////////////// Navbar Section End///////////////////////////// */}
+
+
+
+         {/*////////////////////// Header Section Start/////////////////////////*/}
+
+
+
+
+         {/* /////////////////// Header Section End//////////////////////////// */}
     </div>
   );
 }
