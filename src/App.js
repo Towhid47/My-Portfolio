@@ -3,6 +3,8 @@ import './App.css';
 //////////// Navbar Icons///////
 import { FaHome, FaLightbulb, FaMailBulk, FaProjectDiagram, FaUserAlt } from 'react-icons/fa';
 
+//////////// Type Writer text animation import ////////////
+import Typewriter from 'typewriter-effect';
 
 function App() {
   return (
@@ -38,6 +40,7 @@ function App() {
          <div className='container'>
             <h1 className='greetings'>Hello! Welcome to my portfolio</h1>
             <h1 className='name'>I'm <span className='my-name'>Towhidur Rahman</span></h1>
+            <h1 className='my-designation'><Typewriter options={{  strings: ['MERN Stack Developer', 'UI/UX Designer'],  autoStart: true,  loop: true,  }}/></h1>
          </div>
          {/* /////////////////// Header Section End//////////////////////////// */}
     </div>

@@ -48,5 +48,9 @@
 .my-name{
    color: rgb(0, 255, 255);
 }
+.my-designation{
+   margin-left:5%;
+   font-family: 'Roboto Mono', monospace;
+}
 
 /* //////////////Header Section Style End ///////////////////////// */
