@@ -9,12 +9,15 @@
 
 /*////////// Navbar Style Start ////////////////////////*/
 .navigationbar{
-   margin-top: 1%;
+   padding: 15px;
    text-align: center;
    display: flex;
    justify-content: space-evenly;
-   
 }
+.navigationbar:hover{
+   background-color: rgba(0, 0, 0, 0.424);
+}
+
 .nav-item{
    color:white;
    font-size: 2.5em;
@@ -35,13 +38,14 @@
 
 
  /*/////////////// Header Section Style Start /////////////////// */
+ .header{
+   margin-left: 5%;;
+ }
  .greetings{
    font-family: 'Courgette', cursive;
-   margin-left: 5%;
    margin-top: 5%;
 }
 .name{
-   margin-left:5%;
    font-size:400%;
    font-family: 'Roboto Mono', monospace;
 }
@@ -49,8 +53,30 @@
    color: rgb(0, 255, 255);
 }
 .my-designation{
-   margin-left:5%;
    font-family: 'Roboto Mono', monospace;
+}
+.social{
+   margin-top:100px;
+   font-size: 3em;
+}
+.social-link{
+   color:white;
+}
+.button{
+    padding:25px 50px;
+    font-size:25px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:900;
+    border-radius: 9px;
+    color: white;
+    background: linear-gradient(to right bottom, #0062a1, #0061a7, #0061ac, #075fb1, #155eb6, #1f5ab6, #2856b6, #3151b6, #3948b1, #413fab, #4934a4, #50289d);
+}
+.button:hover{
+    color: white;
+    background: linear-gradient(to right bottom, gray , black);
+}
+.header-btn{
+  margin-top: 20px;  
 }
 
 /* //////////////Header Section Style End ///////////////////////// */
