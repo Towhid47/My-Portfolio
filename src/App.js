@@ -71,53 +71,53 @@ function App() {
               <div className='skills'>
                  <div className='w-50 text-center rotate-img'>
                      <img src={html} alt="html" className='w-50' />
-                     <p>HTML5</p>
+                     <p className='d-none d-lg-block'>HTML5</p>
                  </div>
                  <div className='w-50 text-center rotate-img'>
                      <img src={css} alt="css" className='w-50'/>
-                     <p>CSS3</p>
+                     <p className='d-none d-lg-block'>CSS3</p>
                  </div>
                  <div className='w-50 text-center rotate-img'>
                     <img src={js} alt="Javascript" className='w-50'/>
-                    <p>JavaScript</p>
+                    <p className='d-none d-lg-block'>JavaScript</p>
                  </div>
                  <div className='w-50 text-center rotate-img'>
                     <img src={bootstrap} alt="" className='w-50'/>
-                    <p>Bootstrap</p>
+                    <p className='d-none d-lg-block'>Bootstrap</p>
                  </div>
                  <div className='w-50 text-center rotate-img'>
                     <img src={tailwind} alt="" className='w-50'/>
-                    <p>Tailwind CSS</p>
+                    <p className='d-none d-lg-block'>Tailwind CSS</p>
                  </div>
 
                  <div className='w-50 text-center'>
                     <img src={react} alt="" className='w-50 react'/>
-                    <p>React JS</p>
+                    <p className='d-none d-lg-block'>React JS</p>
                  </div>
 
                  <div className='w-50 text-center rotate-img'>
                     <img src={node} alt="" className='w-50'/>
-                    <p>Node JS</p>
+                    <p className='d-none d-lg-block'>ode JS</p>
                  </div>
                  <div className='w-50 text-center rotate-img'>
                     <img src={express} alt="" className='w-50'/>
-                    <p>Express JS</p>
+                    <p className='d-none d-lg-block'>Express JS</p>
                  </div>
                  <div className='w-50 text-center'>
                     <img src={mongodb} alt="" className='w-50 react'/>
-                    <p>MongoDB</p>
+                    <p className='d-none d-lg-block'>MongoDB</p>
                  </div>
                  <div className='w-50 text-center rotate-img'>
                     <img src={firebase} alt="" className='w-50'/>
-                    <p>Firebase</p>
+                    <p className='d-none d-lg-block'>Firebase</p>
                  </div>
-                 <div className='w-50 text-center rotate-img'>
-                    <img src={netlify} alt="" className='w-50'/>
-                    <p>Netlify</p>
+                 <div className='w-50 text-center'>
+                    <img src={netlify} alt="" className='w-50 react'/>
+                    <p className='d-none d-lg-block'>Netlify</p>
                  </div>
                  <div className='w-50 text-center rotate-img'>
                     <img src={vercel} alt="" className='w-50'/>
-                    <p>Vercel</p>
+                    <p className='d-none d-lg-block'>Vercel</p>
                  </div>
                  
               </div>
