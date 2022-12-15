@@ -6,11 +6,26 @@ import { FaFacebook, FaGithub, FaHome, FaLightbulb, FaLinkedin, FaMailBulk, FaPr
 //////////// Type Writer text animation import ////////////
 import Typewriter from 'typewriter-effect';
 
+/////////// Skill Section Images import /////////
+import react from './assets/skills image/react.png';
+import html from './assets/skills image/html.png';
+import css from './assets/skills image/css.png';
+import js from './assets/skills image/js.jpg';
+import node from './assets/skills image/nodejs.png';
+import firebase from './assets/skills image/firebase.png';
+import netlify from './assets/skills image/netlify.png';
+import vercel from './assets/skills image/vercel.jpg';
+import tailwind from './assets/skills image/tailwind.png';
+import bootstrap from './assets/skills image/bootstrap.png';
+import mongodb from './assets/skills image/mongodb.png';
+import express from './assets/skills image/expressjs.png';
+import next from './assets/skills image/nextjs.png';
+
 function App() {
   return (
     <div className="App">
         {/* ////////////////////// Navbar Section Start///////////////////////// */}
-        <div className='navigationbar'>
+        <div className='navigationbar sticky-top'>
               <div>
                   <a href="#home" alt="home"><FaHome className='nav-item bounce'/></a>
                   <p>Home</p>
@@ -37,7 +52,7 @@ function App() {
 
 
          {/*////////////////////// Header Section Start/////////////////////////*/}
-         <header className='header'>
+         <header className='header container mt-5'>
             <h1 className='greetings'>Hello! Welcome to my portfolio</h1>
             <h1 className='name'>I'm <span className='my-name'>Towhidur Rahman</span></h1>
             <h1 className='my-designation'><Typewriter options={{  strings: ['MERN Stack Developer', 'UI/UX Designer'],  autoStart: true,  loop: true,  }}/></h1>
@@ -51,7 +66,62 @@ function App() {
 
 
          {/*////////////////// My Skills Section Start/////////////////////////// */}
-         
+         <section className='section p-5'>
+              <h1 className='heading text-center mb-5 fw-bold'> My Skills </h1>
+              <div className='skills'>
+                 <div className='w-50 text-center'>
+                     <img src={html} alt="html" className='w-50 rotate-img' />
+                     <p>HTML5</p>
+                 </div>
+                 <div className='w-50 text-center'>
+                     <img src={css} alt="css" className='w-50 rotate-img'/>
+                     <p>CSS3</p>
+                 </div>
+                 <div className='w-50 text-center'>
+                    <img src={js} alt="Javascript" className='w-50 rotate-img'/>
+                    <p>JavaScript</p>
+                 </div>
+                 <div className='w-50 text-center'>
+                    <img src={bootstrap} alt="" className='w-50 rotate-img'/>
+                    <p>Bootstrap</p>
+                 </div>
+                 <div className='w-50 text-center'>
+                    <img src={tailwind} alt="" className='w-50 rotate-img'/>
+                    <p>Tailwind CSS</p>
+                 </div>
+
+                 <div className='w-50 text-center'>
+                    <img src={react} alt="" className='w-50 react'/>
+                    <p>React JS</p>
+                 </div>
+
+                 <div className='w-50 text-center'>
+                    <img src={node} alt="" className='w-50 rotate-img'/>
+                    <p>Node JS</p>
+                 </div>
+                 <div className='w-50 text-center'>
+                    <img src={express} alt="" className='w-50 rotate-img'/>
+                    <p>Express JS</p>
+                 </div>
+                 <div className='w-50 text-center'>
+                    <img src={mongodb} alt="" className='w-50 react'/>
+                    <p>MongoDB</p>
+                 </div>
+                 <div className='w-50 text-center'>
+                    <img src={firebase} alt="" className='w-50 rotate-img'/>
+                    <p>Firebase</p>
+                 </div>
+                 <div className='w-50 text-center'>
+                    <img src={netlify} alt="" className='w-50 rotate-img'/>
+                    <p>Netlify</p>
+                 </div>
+                 <div className='w-50 text-center'>
+                    <img src={vercel} alt="" className='w-50 rotate-img'/>
+                    <p>Vercel</p>
+                 </div>
+                 
+              </div>
+         </section>
 
 
 

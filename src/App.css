@@ -15,7 +15,7 @@
    justify-content: space-evenly;
 }
 .navigationbar:hover{
-   background-color: rgba(0, 0, 0, 0.424);
+   background-color: rgba(0, 0, 0, 0.871);
 }
 
 .nav-item{
@@ -38,10 +38,8 @@
 
 
  /*/////////////// Header Section Style Start /////////////////// */
- .header{
-   margin-left: 5%;;
- }
- .greetings{
+
+.greetings{
    font-family: 'Courgette', cursive;
    margin-top: 5%;
 }
@@ -81,3 +79,46 @@
 }
 
 /* //////////////Header Section Style End ///////////////////////// */
+
+
+
+/* //////////////My Skill Section Style Start///////////////////// */
+.section{
+   margin-top: 230px;
+   background-color: #00000084;
+}
+.heading{
+   font-family: 'Roboto Mono', monospace;
+   color: aqua;
+}
+
+.skills{
+   margin-top: 130px;
+   margin-bottom: 90px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   justify-content: space-around;
+   align-items: center;
+   grid-row-gap: 5%;
+}
+/*/////////// rotate y-axis animation //////////////////*/
+.rotate-img:hover{
+   -webkit-animation: rotateY 1s infinite linear;
+   animation: rotateY 1s infinite linear;
+}
+@-webkit-keyframes rotateY {
+   to { -webkit-transform: rotateY(360deg); }
+ }
+ @keyframes rotateY {
+   to { transform: rotateY(360deg); }
+ }
+
+ /*////// Rotate React image like a fan ///////////*/
+ .react{
+    transition: transform 2s linear;
+ }
+ .react:hover{
+   transform: rotate(180deg);
+ }
+
+/* /////////////My Skill Section Style End ////////////////////// */
