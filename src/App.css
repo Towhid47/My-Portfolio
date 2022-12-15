@@ -103,8 +103,8 @@
 }
 /*/////////// rotate y-axis animation //////////////////*/
 .rotate-img:hover{
-   -webkit-animation: rotateY 1s infinite linear;
-   animation: rotateY 2s infinite linear;
+   -webkit-animation: rotateY 1s  linear;
+   animation: rotateY 2s  linear;
 }
 @-webkit-keyframes rotateY {
    to { -webkit-transform: rotateY(360deg); }
@@ -115,10 +115,39 @@
 
  /*////// Rotate React image like a fan ///////////*/
  .react{
-    transition: transform 2s linear;
+    transition: transform 3s linear;
  }
  .react:hover{
-   transform: rotate(180deg);
+   transform: rotate(360deg);
  }
 
 /* /////////////My Skill Section Style End ////////////////////// */
+
+
+/* //////////////My Projects Section Style Start ///////////////////// */
+.card-body{
+   background-color: #010101fb;
+   border: 2px solid black;
+}
+
+.cards-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-column-gap: 36px;
+}
+.project-name{
+   font-family: 'Roboto Mono', monospace;
+   color: aqua;
+}
+
+.button-small{
+   background: linear-gradient(to right bottom, #0062a1, #0061a7, #0061ac, #075fb1, #155eb6, #3151b6, #3948b1, #413fab, #4934a4, #50289d);
+   font-family: 'Roboto Mono', monospace;
+}
+.button-small:hover{
+   color: white;
+   background: linear-gradient(to right bottom, gray , black);
+}
+
+
+/* ///////////////My Projects Section Style End ////////////////////////// */
