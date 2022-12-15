@@ -69,24 +69,24 @@ function App() {
          <section className='section p-5'>
               <h1 className='heading text-center mb-5 fw-bold'> My Skills </h1>
               <div className='skills'>
-                 <div className='w-50 text-center'>
-                     <img src={html} alt="html" className='w-50 rotate-img' />
+                 <div className='w-50 text-center rotate-img'>
+                     <img src={html} alt="html" className='w-50' />
                      <p>HTML5</p>
                  </div>
-                 <div className='w-50 text-center'>
-                     <img src={css} alt="css" className='w-50 rotate-img'/>
+                 <div className='w-50 text-center rotate-img'>
+                     <img src={css} alt="css" className='w-50'/>
                      <p>CSS3</p>
                  </div>
-                 <div className='w-50 text-center'>
-                    <img src={js} alt="Javascript" className='w-50 rotate-img'/>
+                 <div className='w-50 text-center rotate-img'>
+                    <img src={js} alt="Javascript" className='w-50'/>
                     <p>JavaScript</p>
                  </div>
-                 <div className='w-50 text-center'>
-                    <img src={bootstrap} alt="" className='w-50 rotate-img'/>
+                 <div className='w-50 text-center rotate-img'>
+                    <img src={bootstrap} alt="" className='w-50'/>
                     <p>Bootstrap</p>
                  </div>
-                 <div className='w-50 text-center'>
-                    <img src={tailwind} alt="" className='w-50 rotate-img'/>
+                 <div className='w-50 text-center rotate-img'>
+                    <img src={tailwind} alt="" className='w-50'/>
                     <p>Tailwind CSS</p>
                  </div>
 
@@ -95,28 +95,28 @@ function App() {
                     <p>React JS</p>
                  </div>
 
-                 <div className='w-50 text-center'>
-                    <img src={node} alt="" className='w-50 rotate-img'/>
+                 <div className='w-50 text-center rotate-img'>
+                    <img src={node} alt="" className='w-50'/>
                     <p>Node JS</p>
                  </div>
-                 <div className='w-50 text-center'>
-                    <img src={express} alt="" className='w-50 rotate-img'/>
+                 <div className='w-50 text-center rotate-img'>
+                    <img src={express} alt="" className='w-50'/>
                     <p>Express JS</p>
                  </div>
                  <div className='w-50 text-center'>
                     <img src={mongodb} alt="" className='w-50 react'/>
                     <p>MongoDB</p>
                  </div>
-                 <div className='w-50 text-center'>
-                    <img src={firebase} alt="" className='w-50 rotate-img'/>
+                 <div className='w-50 text-center rotate-img'>
+                    <img src={firebase} alt="" className='w-50'/>
                     <p>Firebase</p>
                  </div>
-                 <div className='w-50 text-center'>
-                    <img src={netlify} alt="" className='w-50 rotate-img'/>
+                 <div className='w-50 text-center rotate-img'>
+                    <img src={netlify} alt="" className='w-50'/>
                     <p>Netlify</p>
                  </div>
-                 <div className='w-50 text-center'>
-                    <img src={vercel} alt="" className='w-50 rotate-img'/>
+                 <div className='w-50 text-center rotate-img'>
+                    <img src={vercel} alt="" className='w-50'/>
                     <p>Vercel</p>
                  </div>
                  

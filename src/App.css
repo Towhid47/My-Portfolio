@@ -104,7 +104,7 @@
 /*/////////// rotate y-axis animation //////////////////*/
 .rotate-img:hover{
    -webkit-animation: rotateY 1s infinite linear;
-   animation: rotateY 1s infinite linear;
+   animation: rotateY 2s infinite linear;
 }
 @-webkit-keyframes rotateY {
    to { -webkit-transform: rotateY(360deg); }
