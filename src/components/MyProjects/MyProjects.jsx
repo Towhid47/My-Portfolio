@@ -12,7 +12,7 @@ const MyProjects = () => {
         <div>
               {/* /////////////// My Projects Section Start ///////////////////////////*/}
           <section className='ms-5 mt-5 p-5'>
-            <h1 className='heading text-center mb-5'>My Projects</h1>
+            <h1 className='heading text-center mb-5 fw-bold'>My Projects</h1>
             <div className='cards-container'>
                 {/* ////////////// Divine Travels Project /////////////////// */}
                 <div className='card-container'>  
