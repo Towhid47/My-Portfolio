@@ -1,0 +1,42 @@
+/*/////////////// Header Section Style Start /////////////////// */
+
+.greetings{
+    font-family: 'Courgette', cursive;
+    margin-top: 5%;
+ }
+ .name{
+    font-size:400%;
+    font-family: 'Roboto Mono', monospace;
+ }
+ .my-name{
+    color: rgb(0, 255, 255);
+ }
+ .my-designation{
+    font-family: 'Roboto Mono', monospace;
+    margin-top:20px;
+ }
+ .social{
+    margin-top:50px;
+    font-size: 3em;
+ }
+ .social-link{
+    color:white;
+ }
+ .button{
+     padding:25px 50px;
+     font-size:25px;
+     font-family: 'Roboto Mono', monospace;
+     font-weight:900;
+     border-radius: 9px;
+     color: white;
+     background: linear-gradient(to right bottom, #0062a1, #0061a7, #0061ac, #075fb1, #155eb6, #3151b6, #3948b1, #413fab, #4934a4, #50289d);
+ }
+ .button:hover{
+     color: white;
+     background: linear-gradient(to right bottom, gray , black);
+ }
+ .header-btn{
+   margin-top: 20px;  
+ }
+ 
+ /* //////////////Header Section Style End ///////////////////////// */
