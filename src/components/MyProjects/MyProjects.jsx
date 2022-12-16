@@ -9,54 +9,54 @@ import global_news from '../../assets/Projects images/global-news.jpg';
 
 const MyProjects = () => {
     return (
-        <div>
+        <div id="projects">
               {/* /////////////// My Projects Section Start ///////////////////////////*/}
           <section className='ms-5 mt-5 p-5'>
             <h1 className='heading text-center mb-5 fw-bold'>My Projects</h1>
             <div className='cards-container'>
                 {/* ////////////// Divine Travels Project /////////////////// */}
-                <div className='card-container'>  
+                <div className='card-container mt-5'>  
                     <a href="https://divine-travels-f5721.web.app/" className='text-decoration-none'>
-                        <Card style={{ width: '30rem' }}>
+                        <Card style={{ width: "100%" }}>
                             <Card.Img variant="top" src={divine_travels} />
                             <Card.Body>
                                 <Card.Title className='project-name fs-2'>Divine Travels</Card.Title>
                                 <Card.Text>
                                     <p className='mt-3 text-light'>This is the Travel Agency Service Website. It is built by using ReactJS</p>
                                 </Card.Text>
-                                <a href="./details"><Button className='button-small w-100'>Details</Button></a>
+                                <a href="/details/divine-travels"><Button className='button-small w-100'>Details</Button></a>
                             </Card.Body>
                         </Card>
                     </a>
                 </div>
 
                 {/* ////////////// Developer QnA Project /////////////////// */}
-                <div className='card-container'>  
+                <div className='card-container mt-5'>  
                     <a href="https://developer-qna.netlify.app/" className='text-decoration-none'>
-                        <Card style={{ width: '30rem' }}>
+                        <Card style={{ width: '100%' }}>
                             <Card.Img variant="top" src={developer_qna} />
                             <Card.Body>
                                 <Card.Title className='project-name fs-2'>Developer QnA</Card.Title>
                                 <Card.Text>
                                     <p className='mt-3 text-light'>This is the Quiz test Website based on the Web Development Topics. It is built by using ReactJS</p>
                                 </Card.Text>
-                                <a href="./details"><Button className='button-small w-100'>Details</Button></a>
+                                <a href="/details/developer-qna"><Button className='button-small w-100'>Details</Button></a>
                             </Card.Body>
                         </Card>
                     </a>
                 </div>
 
                 {/* ////////////// Global News Project /////////////////// */}
-                <div className='card-container'>  
+                <div className='card-container mt-5'>  
                     <a href="https://global-news47.netlify.app/" className='text-decoration-none'>
-                        <Card style={{ width: '30rem' }}>
+                        <Card style={{ width: '100%' }}>
                             <Card.Img variant="top" src={global_news} />
                             <Card.Body>
                                 <Card.Title className='project-name fs-2'>Global News</Card.Title>
                                 <Card.Text>
                                     <p className='mt-3 text-light'>This is the News Portal Website . Built by HTML5 , CSS3 and Javascript</p>
                                 </Card.Text>
-                                <a href="./details"><Button className='button-small w-100'>Details</Button></a>
+                                <a href="/details/global-news"><Button className='button-small w-100'>Details</Button></a>
                             </Card.Body>
                         </Card>
                     </a>

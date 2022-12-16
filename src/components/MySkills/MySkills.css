@@ -37,4 +37,19 @@
     transform: rotate(360deg);
   }
  
- /* /////////////My Skill Section Style End ////////////////////// */
+
+
+/* /////////////////// Media Query For Mobile ///////////////////////////*/
+
+@media only screen and (max-width: 950px){
+	.skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+
+
+ 

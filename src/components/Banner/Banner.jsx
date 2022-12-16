@@ -10,7 +10,7 @@ const Banner = () => {
               {/*////////////////////// Header Section Start/////////////////////////*/}
          <header className='header container mt-5'>
             <h1 className='greetings'>Hello! Welcome to my portfolio</h1>
-            <h1 className='name'>I'm <span className='my-name'>Towhidur Rahman</span></h1>
+            <h1 className='name'>I'm <span className='my-name'>Md.Towhidur Rahman</span></h1>
             <h1 className='my-designation'><Typewriter options={{  strings: ['MERN Stack Developer', 'UI/UX Designer'],  autoStart: true,  loop: true,  }}/></h1>
             <h1 className='my-designation'>1+ Years of Experience in Web Development.</h1>
             

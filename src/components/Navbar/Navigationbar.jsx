@@ -8,7 +8,7 @@ const Navigationbar = () => {
               {/* ////////////////////// Navbar Section Start///////////////////////// */}
                 <div className='navigationbar sticky-top'>
                     <div>
-                        <a href="#home" alt="home"><FaHome className='nav-item bounce'/></a>
+                        <a href="/" alt="home"><FaHome className='nav-item bounce'/></a>
                         <p>Home</p>
                     </div>
                     <div>

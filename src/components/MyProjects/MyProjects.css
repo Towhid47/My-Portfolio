@@ -38,3 +38,12 @@
        transform: scale(1,1);
    }
 }
+
+/* /////////////////Media Query for Mobile */
+
+@media only screen and (max-width: 950px){
+	.cards-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
