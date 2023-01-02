@@ -1,0 +1,16 @@
+.mobile-screen{
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 950px){
+	.mobile-screen{
+        width: 100%;
+    }
+}

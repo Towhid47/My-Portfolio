@@ -11,7 +11,7 @@ const MyProjects = () => {
     return (
         <div id="projects">
               {/* /////////////// My Projects Section Start ///////////////////////////*/}
-          <section className='ms-5 mt-5 p-5'>
+          <section className='container mt-5'>
             <h1 className='heading text-center mb-5 fw-bold'>My Projects</h1>
             <div className='cards-container'>
                 {/* ////////////// Divine Travels Project /////////////////// */}
