@@ -29,7 +29,7 @@
      font-weight:900;
      border-radius: 9px;
      color: white;
-     background: linear-gradient(to right bottom, #0062a1, #0061a7, #0061ac, #075fb1, #155eb6, #3151b6, #3948b1, #413fab, #4934a4, #50289d);
+     background: linear-gradient(to right bottom, #014169, #013d68, #044679, #033c70, #08366f, #152b74, #141c59);
  }
  .button:hover{
      color: white;
